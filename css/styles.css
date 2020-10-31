@@ -1,0 +1,168 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+#title{
+  background-color: #ff4c68;
+  right:auto;
+  color: white;
+
+
+}
+.fluid-container{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+}
+.navbar-light .navbar-brand{
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+
+}
+
+.navbar{
+  padding: 0 0 3rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.nav-item{
+  padding: 0 18px;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.phone-img{
+position: absolute;
+  transform: rotate(25deg);
+  width:50%;
+  right: 30%;
+}
+#features{
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+  z-index:1;
+}
+.coll{
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+.coll:hover{
+  color: #ff4c68;
+}
+h3{
+  font-family: "Montserrat-bold";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.feature{
+  padding:5%;
+}
+p{
+  font-family: "Montserrat-light";
+  color:#8f8f8f;
+}
+#testimonials{
+  text-align: center;
+  background-color:#ef8172;
+  color: #fff;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.test-img{
+border-radius: 50%;
+width: 15%;
+margin: 20px;
+
+}
+h2{
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  color: white;
+  margin: 0 5% 0;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 4%;
+  text-align: center;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+.testimonial-image{
+  border-radius: 50%;
+  width: 15%;
+  margin: 20px;
+
+}
+.card-heading{
+  color: black;
+  margin: 0;
+}
+#pricing{
+  padding: 80px;
+  text-align: center;
+}
+.price-head{
+  color: black;
+  font-family: "Montserrat";
+  padding-bottom: 10px;
+}
+#cta{
+  padding: 30px;
+  text-align: center;
+  background-color: #ff4c68;
+
+}
+.cta-head{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1;
+  color: #fff;
+
+}
+.final{
+  margin: 5% 18% 5%;
+}
+.final-button{
+  margin: 5% 3%  0;
+}
+#footer{
+  text-align: center;
+
+  margin-top: 8%;
+}
+.foot-icon{
+  margin: 0 0.55% 0.75%;
+}
+@media (max-width:1028px) {
+  .phone-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+  h2{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    color: white;
+    margin: 0 5% 0;
+  }
+}
